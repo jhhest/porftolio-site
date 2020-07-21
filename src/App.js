@@ -1,15 +1,13 @@
 import React from "react";
 import Header from "./components/Header.jsx";
+import Intro from "./components/Intro.jsx";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <h1>Intro.</h1>
-      <h2>
-        Hey! My name is Jan, a strong and independ developer with a learning
-        mindset.
-      </h2>
+      <Intro />
+
       <h2>Experience and Skills</h2>
       <h2>Timeline</h2>
       <h2>Achievements</h2>
