@@ -1,26 +1,16 @@
 import React from "react";
 import Header from "./components/Header.jsx";
 import Intro from "./components/Intro.jsx";
+import Portfolio from "./components/Portfolio.jsx";
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Intro />
-
-      <h2>Experience and Skills</h2>
-      <h2>Timeline</h2>
-      <h2>Achievements</h2>
-      <ul>
-        <li>Codaisseur bootcamp. </li>
-        <li>freeCodeCamp Certficate - Responsive Webdesign</li>
-        <li>
-          freeCodeCamp Certficate - JavaScript Algrorithms and Data Structures
-        </li>
-        <li>rinxs.nl</li>
-        <li>dirty-t.nl</li>
-        <li>muziekinverhalen.nl</li>
-      </ul>
+      <Portfolio />
+      <About />
+      <Contact />
       <h2>About me.</h2>
       <p>
         I am a junior developer and completed my education at Codaisseur. I
