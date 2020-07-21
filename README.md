@@ -6,6 +6,8 @@ This github is my portfolio site. This site i would like to use to present mysel
 
 * Intro. 
 * Skills.
+* Achievements
+* Timeline
 * Content. 
 * Portfolio sites.
 * Color-contrast. 
