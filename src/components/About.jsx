@@ -18,6 +18,7 @@ function About() {
         Characteristics of me are ambition, an inquisitive learning attitude,
         knowledge of people through experience, cooperation and independence.
       </p>
+      <p>Hobby's</p>
     </section>
   );
 }

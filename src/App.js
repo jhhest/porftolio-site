@@ -11,10 +11,6 @@ function App() {
       <Intro />
       <Portfolio />
       <About />
-      {/* <About />
-      <Contact /> */}
-
-      <p>Hobby's - Contact.</p>
     </div>
   );
 }
