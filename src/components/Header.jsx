@@ -6,7 +6,9 @@ function Header() {
     <Fragment>
       <header>
         <section id="logo-left">
-          <img class="logo" src={logo} alt="Logo for Jan van Hest" />
+          <img id="logo" src={logo} alt="Logo for Jan van Hest" />
+        </section>
+        <section id="logo-text">
           <p>Jan van Hest</p>
           <p>Webdeveloper</p>
         </section>

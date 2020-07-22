@@ -9,10 +9,32 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-  monospace;
+    monospace;
 }
 
-.logo {
-  height: 3rem;
+header {
+  height: 5rem;
+  background-color: pink;
+  display: flex;
+}
+
+section#logo-text {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0.5rem;
+}
+
+section#logo-text p {
+  height: 1rem;
+  background-color: olivedrab;
+  margin: 0;
+}
+#logo-left {
+  padding: 0.5rem;
+}
+#logo {
+  height: 4rem;
   width: auto;
 }
