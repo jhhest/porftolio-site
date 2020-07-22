@@ -7,10 +7,10 @@ function Header() {
       <header>
         <section id="logo-left">
           <img id="logo" src={logo} alt="Logo for Jan van Hest" />
-        </section>
-        <section id="logo-text">
-          <p>Jan van Hest</p>
-          <p>Webdeveloper</p>
+          <section id="logo-text">
+            <p>Jan van Hest</p>
+            <p>Webdeveloper</p>
+          </section>
         </section>
         <nav>
           <ul>

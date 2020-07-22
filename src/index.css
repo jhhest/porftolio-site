@@ -11,12 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
+/**
+* Header
+* consist of
+* - Logo
+* - Menu
+*/
 header {
   height: 5rem;
   background-color: pink;
   display: flex;
+  justify-content: space-between;
 }
+
+/* Logo  */
 
 section#logo-text {
   font-size: 1rem;
@@ -28,13 +36,31 @@ section#logo-text {
 
 section#logo-text p {
   height: 1rem;
-  background-color: olivedrab;
   margin: 0;
 }
 #logo-left {
+  display: flex;
   padding: 0.5rem;
 }
 #logo {
   height: 4rem;
   width: auto;
+}
+
+/* Menu */
+
+nav ul {
+  background-color: powderblue;
+  display: flex;
+  list-style: none;
+  height: 5rem;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+nav ul li {
+  margin: 0 2rem;
 }
