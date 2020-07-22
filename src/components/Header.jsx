@@ -7,6 +7,8 @@ function Header() {
       <header>
         <section id="logo-left">
           <img class="logo" src={logo} alt="Logo for Jan van Hest" />
+          <p>Jan van Hest</p>
+          <p>Webdeveloper</p>
         </section>
         <nav>
           <ul>
