@@ -5,16 +5,20 @@ function Header() {
   return (
     <Fragment>
       <header>
-        <img class="logo" src={logo} alt="Logo for Jan van Hest" />
+        <section id="logo-left">
+          <img class="logo" src={logo} alt="Logo for Jan van Hest" />
+          <p>Jan van Hest</p>
+          <p>Webdeveloper</p>
+        </section>
+        <nav>
+          <ul>
+            <li>Home</li>
+            <li>About me</li>
+            <li>Experience</li>
+            <li>Contact</li>
+          </ul>
+        </nav>
       </header>
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>About me</li>
-          <li>Experience</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
     </Fragment>
   );
 }
