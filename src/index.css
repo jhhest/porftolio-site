@@ -19,7 +19,6 @@ code {
 */
 header {
   height: 5rem;
-  background-color: pink;
   display: flex;
   justify-content: space-between;
 }
@@ -27,7 +26,7 @@ header {
 /* Logo  */
 
 section#logo-text {
-  font-size: 1rem;
+  font-size: 1.rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -50,7 +49,6 @@ section#logo-text p {
 /* Menu */
 
 nav ul {
-  background-color: powderblue;
   display: flex;
   list-style: none;
   height: 5rem;
@@ -63,4 +61,5 @@ nav ul {
 
 nav ul li {
   margin: 0 2rem;
+  font-size: 1.25rem;
 }

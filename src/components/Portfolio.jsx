@@ -2,7 +2,7 @@ import React from "react";
 
 const Portfolio = () => {
   return (
-    <div>
+    <section id="portfolio">
       <h2>Experience and Skills</h2>
       <h2>Timeline</h2>
       <h2>Achievements</h2>
@@ -16,7 +16,7 @@ const Portfolio = () => {
         <li>dirty-t.nl</li>
         <li>muziekinverhalen.nl</li>
       </ul>
-    </div>
+    </section>
   );
 };
 
