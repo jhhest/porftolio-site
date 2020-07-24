@@ -4,8 +4,6 @@ const Portfolio = () => {
   return (
     <section id="portfolio">
       <h2>Experience and Skills</h2>
-      <h2>Timeline</h2>
-      <h2>Achievements</h2>
       <ul>
         <li>Codaisseur bootcamp. </li>
         <li>freeCodeCamp Certficate - Responsive Webdesign</li>

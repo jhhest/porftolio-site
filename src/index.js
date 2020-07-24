@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import "normalize.css";
+import "fontawesome-4.7";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 

@@ -5,6 +5,7 @@ import Portfolio from "./components/Portfolio.jsx";
 import About from "./components/About.jsx";
 import Contact from "./components/Contact.jsx";
 
+
 function App() {
   return (
     <div className="App">
