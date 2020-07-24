@@ -7,7 +7,7 @@ import Portfolio from "./components/Portfolio.jsx";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="appFlexbox">
       <Header />
       <Intro />
       <Portfolio />
