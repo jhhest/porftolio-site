@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <section>
+    <section id="about">
       <h2>About me.</h2>
       <p>
         I am a junior developer and completed my education at Codaisseur. I
