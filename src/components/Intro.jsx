@@ -13,7 +13,10 @@ function Intro() {
         <h1>I am Jan van Hest</h1>
       </div>
       <div id="intro-text">
-        <h2>A strong and independ developer with a learning mindset.</h2>
+        <h2>
+          <i class="fa fa-info-circle" aria-hidden="true"></i> A strong and
+          independend developer with a learning mindset.
+        </h2>
         <p>
           I am a junior developer and completed my education at Codaisseur. I
           seize opportunities, look at options, solve problems and think in

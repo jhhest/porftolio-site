@@ -5,6 +5,8 @@
   --primary: rgb(50, 121, 161);
   --primary-accent: rgb(173, 225, 255);
   --Pink: #ff0ff8;
+  --codaisseur: darkred;
+  --freecodecamp: darkgreen;
 }
 body {
   margin: 0;
@@ -16,6 +18,12 @@ body {
   max-width: 100%;
 }
 
+.codaisseur {
+  color: var(--codaisseur);
+}
+.freeCodeCamp {
+  color: var(--freeCodeCamp);
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -32,6 +40,20 @@ header {
   justify-content: space-between;
   color: var(--logo-color);
   flex-direction: column;
+}
+
+/* Default margins and paddings */
+
+h1,
+h2,
+p {
+  margin: 1rem;
+}
+
+/* Icons  */
+
+i {
+  color: var(--primary);
 }
 
 /* Menu */
@@ -100,6 +122,7 @@ section#intro img {
   height: 18rem;
   width: auto;
   border-radius: 50%;
+  border: 1px solid white;
   filter: drop-shadow(2px 2px 10px var(--primary-accent));
 }
 
