@@ -1,4 +1,4 @@
-# portolio-site
+# Portfolio-site
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/743d4633-06d4-4bd2-8d85-9cf9ea3d9f3b/deploy-status)](https://app.netlify.com/sites/jan-portfolio/deploys)
 
