@@ -7,6 +7,11 @@
   --Pink: #ff0ff8;
   --codaisseur: darkred;
   --freecodecamp: darkgreen;
+  --max-width: 1100px;
+}
+
+* {
+  box-sizing: border-box;
 }
 body {
   margin: 0;
@@ -16,6 +21,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   max-width: 100%;
+  overflow-x: hidden;
+  padding-bottom: 50px;
 }
 
 .codaisseur {
@@ -53,7 +60,7 @@ p {
 /* Icons  */
 
 i {
-  color: var(--primary);
+  color: var(--logo-color);
 }
 
 /* Menu */
@@ -98,6 +105,13 @@ section#logo-left {
   width: auto;
 }
 
+section#portfolio,
+section#intro,
+section#about,
+section#contact {
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
 /* Intro */
 section#intro {
   display: flex;
@@ -118,11 +132,11 @@ div#intro-text {
 }
 
 section#intro img {
-  margin: 1rem auto 1rem;
+  margin: 1rem auto 2rem auto;
   height: 18rem;
   width: auto;
   border-radius: 50%;
-  border: 1px solid white;
+  border: 2px solid var(--primary-accent);
   filter: drop-shadow(2px 2px 10px var(--primary-accent));
 }
 
@@ -141,7 +155,7 @@ section#intro h1 {
   -webkit-background-clip: text;
   max-width: 100%;
   position: relative;
-  top: -6rem;
+  top: -7rem;
   left: 0px;
   margin: 0 auto;
   -webkit-text-stroke: 1px var(--primary);
