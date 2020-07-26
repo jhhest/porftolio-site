@@ -4,7 +4,7 @@ import logo from "../logo-JanVanHest.svg";
 function Header() {
   return (
     <Fragment>
-      <header>
+      <header id="home">
         <section id="logo-left">
           <img id="logo" src={logo} alt="Logo for Jan van Hest" />
           <section id="logo-text">
@@ -14,10 +14,18 @@ function Header() {
         </section>
         <nav>
           <ul>
-            <li>Home</li>
-            <li>About me</li>
-            <li>Experience</li>
-            <li>Contact</li>
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#skills">Skills</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
           </ul>
         </nav>
       </header>

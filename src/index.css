@@ -12,6 +12,10 @@
   --max-width-large: 1100px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
   margin: 0px;
@@ -63,6 +67,7 @@ h2 {
 
 h1,
 h2 {
+  color: var(--primary);
   text-align: center;
 }
 
@@ -79,6 +84,15 @@ i {
 }
 
 /* Menu */
+
+nav a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--primary-light);
+}
 
 nav ul {
   list-style: none;
@@ -321,7 +335,7 @@ ul.hobbies li::before {
     transform: scale(1.2, 1.2);
     margin-bottom: -4rem;
   }
-  section#progress {
+  section#skills {
     top: -2rem;
     position: relative;
   }
@@ -334,7 +348,7 @@ ul.hobbies li::before {
     position: relative;
   }
   section#contact {
-    top: -2rem;
+    top: -3rem;
     position: relative;
   }
 }
@@ -358,20 +372,20 @@ ul.hobbies li::before {
   div#intro-image {
     margin: 1rem;
   }
-  section#progress {
+  section#skills {
     top: -7rem;
     position: relative;
   }
   section#about {
-    top: -7rem;
+    top: -8rem;
     position: relative;
   }
   section#hobbies {
-    top: -7rem;
+    top: -8rem;
     position: relative;
   }
   section#contact {
-    top: -7rem;
+    top: -9rem;
     position: relative;
   }
   header {

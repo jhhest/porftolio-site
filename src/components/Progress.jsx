@@ -12,7 +12,7 @@ import npmLogo from "../../src/tech-logo/npm.svg";
 import postgreLogo from "../../src/tech-logo/postgre.svg";
 const Portfolio = () => {
   return (
-    <section id="progress">
+    <section id="skills">
       <h2>
         <i class="fa fa-graduation-cap" aria-hidden="true"></i> Experience and
         Skills

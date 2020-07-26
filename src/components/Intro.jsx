@@ -15,7 +15,7 @@ function Intro() {
       <div id="intro-text">
         <h2>
           <i class="fa fa-info-circle" aria-hidden="true"></i> A strong and
-          independend devgieloper with a learning mindset.
+          independend developer with a learning mindset.
         </h2>
       </div>
     </section>
