@@ -1,4 +1,5 @@
 import React from "react";
+import Hobbies from "../src/components/Hobbies.jsx";
 import About from "./components/About.jsx";
 import Contact from "./components/Contact.jsx";
 import Header from "./components/Header.jsx";
@@ -12,6 +13,7 @@ function App() {
       <Intro />
       <Progress />
       <About />
+      <Hobbies />
       <Contact />
     </div>
   );
