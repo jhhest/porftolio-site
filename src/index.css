@@ -12,6 +12,10 @@
   --max-width-large: 1100px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
   margin: 0px;
@@ -51,17 +55,19 @@ header {
   display: flex;
   justify-content: space-between;
   color: var(--logo-color);
-  flex-direction: column;
+  flex-direction: row;
 }
 
 /* Default margins and paddings */
 
-h1, h2 {
+h1,
+h2 {
   font-size: 1.8rem;
 }
 
 h1,
 h2 {
+  color: var(--primary);
   text-align: center;
 }
 
@@ -79,12 +85,22 @@ i {
 
 /* Menu */
 
+nav a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--primary-light);
+}
+
 nav ul {
   list-style: none;
   height: 5rem;
   align-items: center;
   justify-content: space-between;
   display: none;
+  flex-direction: row;
 }
 
 nav ul li {
@@ -266,6 +282,7 @@ section#timeline li {
 ul.hobbies {
   list-style: none;
   list-style-position: outside;
+  margin-left: 2rem;
 }
 
 ul.hobbies li::before {
@@ -273,8 +290,9 @@ ul.hobbies li::before {
   color: var(--primary-accent); /* Change the color */
   /* font-weight: bold; If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
-  width: 1em; /* Also needed for space (tweak if needed) */
-  margin-left: 1rem; /* Also needed for space (tweak if needed) */
+  width: 1rem; /* Also needed for space (tweak if needed) */
+  margin-left: -1rem; /* Also needed for space (tweak if needed) */
+  margin-right: 0rem;
 }
 
 @media (max-width: 900px) {
@@ -317,7 +335,7 @@ ul.hobbies li::before {
     transform: scale(1.2, 1.2);
     margin-bottom: -4rem;
   }
-  section#progress {
+  section#skills {
     top: -2rem;
     position: relative;
   }
@@ -330,17 +348,20 @@ ul.hobbies li::before {
     position: relative;
   }
   section#contact {
-    top: -2rem;
+    top: -3rem;
     position: relative;
   }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+  p {
+    font-size: 1.2rem;
+  }
   h1,
   h2,
   p {
-    margin: 2.5rem;
+    margin: 2.2rem;
   }
   section#intro {
     display: flexbox;
@@ -351,21 +372,25 @@ ul.hobbies li::before {
   div#intro-image {
     margin: 1rem;
   }
-  section#progress {
+  section#skills {
     top: -7rem;
     position: relative;
   }
   section#about {
-    top: -7rem;
+    top: -8rem;
     position: relative;
   }
   section#hobbies {
-    top: -7rem;
+    top: -8rem;
     position: relative;
   }
   section#contact {
-    top: -7rem;
+    top: -9rem;
     position: relative;
+  }
+  header {
+    max-width: var(--max-width-large);
+    margin: 0 auto;
   }
   section#progress,
   section#intro,
@@ -374,6 +399,9 @@ ul.hobbies li::before {
   section#contact {
     margin: 0 auto;
     max-width: var(--max-width);
+  }
+  nav ul {
+    display: flex;
   }
 }
 
