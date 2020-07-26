@@ -107,6 +107,13 @@ section#logo-left {
   width: auto;
 }
 
+.logo {
+  height: 3rem;
+  width: auto;
+  margin-top: 1rem;
+  filter: drop-shadow(2px 2px 10px rgba(3, 101, 247, 0.568));
+}
+
 section#progress,
 section#intro,
 section#about,
@@ -193,6 +200,7 @@ section#timeline li {
   width: 400px;
   padding: 1rem;
   background: var(--primary-light);
+  border-radius: 0.5rem 0.5rem;
   transition: all 0.5s ease-in-out;
 }
 
@@ -268,4 +276,8 @@ section#timeline li {
     border-width: 8px 16px 8px 0;
     border-color: transparent var(--primary-light);
   }
+}
+
+.usedTechnologies {
+  text-align: center;
 }
