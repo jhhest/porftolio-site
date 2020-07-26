@@ -6,7 +6,6 @@ function Hobbies() {
       <h2>
         <i class="fa fa-gamepad" aria-hidden="true"></i> Hobby's
       </h2>
-      <p>My hobby's are</p>
       <p>
         i have different hobbies. Almost too much to mention. I like technical
         and creative activities. One can think of:
