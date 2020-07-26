@@ -3,14 +3,14 @@ import About from "./components/About.jsx";
 import Contact from "./components/Contact.jsx";
 import Header from "./components/Header.jsx";
 import Intro from "./components/Intro.jsx";
-import Portfolio from "./components/Portfolio.jsx";
+import Progress from "./components/Progress.jsx";
 
 function App() {
   return (
     <div className="App" id="appFlexbox">
       <Header />
       <Intro />
-      <Portfolio />
+      <Progress />
       <About />
       <Contact />
     </div>
