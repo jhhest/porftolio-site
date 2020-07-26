@@ -10,7 +10,7 @@ function Intro() {
           alt="Jan van Hest, the author of the website."
         />
         <h1>Welcome! </h1>
-        <h1>I am Jan van Hest</h1>
+        <h1>I am Jan van Hest.</h1>
       </div>
       <div id="intro-text">
         <h2>
