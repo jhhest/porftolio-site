@@ -2,7 +2,7 @@ import React from "react";
 
 const Portfolio = () => {
   return (
-    <section id="portfolio">
+    <section id="progress">
       <h2>
         <i class="fa fa-graduation-cap" aria-hidden="true"></i> Experience and
         Skills
