@@ -51,12 +51,13 @@ header {
   display: flex;
   justify-content: space-between;
   color: var(--logo-color);
-  flex-direction: column;
+  flex-direction: row;
 }
 
 /* Default margins and paddings */
 
-h1, h2 {
+h1,
+h2 {
   font-size: 1.8rem;
 }
 
@@ -85,6 +86,7 @@ nav ul {
   align-items: center;
   justify-content: space-between;
   display: none;
+  flex-direction: row;
 }
 
 nav ul li {
@@ -266,6 +268,7 @@ section#timeline li {
 ul.hobbies {
   list-style: none;
   list-style-position: outside;
+  margin-left: 2rem;
 }
 
 ul.hobbies li::before {
@@ -273,8 +276,9 @@ ul.hobbies li::before {
   color: var(--primary-accent); /* Change the color */
   /* font-weight: bold; If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
-  width: 1em; /* Also needed for space (tweak if needed) */
-  margin-left: 1rem; /* Also needed for space (tweak if needed) */
+  width: 1rem; /* Also needed for space (tweak if needed) */
+  margin-left: -1rem; /* Also needed for space (tweak if needed) */
+  margin-right: 0rem;
 }
 
 @media (max-width: 900px) {
@@ -337,10 +341,13 @@ ul.hobbies li::before {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+  p {
+    font-size: 1.2rem;
+  }
   h1,
   h2,
   p {
-    margin: 2.5rem;
+    margin: 2.2rem;
   }
   section#intro {
     display: flexbox;
@@ -367,6 +374,10 @@ ul.hobbies li::before {
     top: -7rem;
     position: relative;
   }
+  header {
+    max-width: var(--max-width-large);
+    margin: 0 auto;
+  }
   section#progress,
   section#intro,
   section#about,
@@ -374,6 +385,9 @@ ul.hobbies li::before {
   section#contact {
     margin: 0 auto;
     max-width: var(--max-width);
+  }
+  nav ul {
+    display: flex;
   }
 }
 
