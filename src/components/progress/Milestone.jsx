@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import cssLogo from "../../../src/tech-logo/css.svg";
 import dockerLogo from "../../../src/tech-logo/docker.svg";
 import gitLogo from "../../../src/tech-logo/git.svg";
@@ -31,7 +32,14 @@ function Milestone(props) {
     return <img class="logo" src={reactLogo} alt="" />;
   };
   return (
-    <li>
+    <motion.li
+      initial={{
+        opacity: 0,
+      }}
+      animate={{
+        opacity: 1,
+      }}
+    >
       <div>
         <h3>
           <i class="fa fa-calendar-o" aria-hidden="true"></i> 01-01-2020{" "}
@@ -48,7 +56,7 @@ function Milestone(props) {
         </h3>
         <section class="usedTechnologies">{returnTechnologieLogo()}</section>
       </div>
-    </li>
+    </motion.li>
   );
 }
 
