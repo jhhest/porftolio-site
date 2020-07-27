@@ -1,15 +1,17 @@
 import React from "react";
-import reactLogo from "../../src/tech-logo/reactjs.svg";
-import cssLogo from "../../src/tech-logo/css.svg";
-import htmlLogo from "../../src/tech-logo/html.svg";
-import ubuntuLogo from "../../src/tech-logo/ubuntu.svg";
-import dockerLogo from "../../src/tech-logo/docker.svg";
-import gitLogo from "../../src/tech-logo/git.svg";
-import javascriptLogo from "../../src/tech-logo/js_official.svg";
-import netlifyLogo from "../../src/tech-logo/netlify.svg";
-import nodeLogo from "../../src/tech-logo/node.svg";
-import npmLogo from "../../src/tech-logo/npm.svg";
-import postgreLogo from "../../src/tech-logo/postgre.svg";
+import cssLogo from "../../../src/tech-logo/css.svg";
+import dockerLogo from "../../../src/tech-logo/docker.svg";
+import gitLogo from "../../../src/tech-logo/git.svg";
+import htmlLogo from "../../../src/tech-logo/html.svg";
+import javascriptLogo from "../../../src/tech-logo/js_official.svg";
+import netlifyLogo from "../../../src/tech-logo/netlify.svg";
+import nodeLogo from "../../../src/tech-logo/node.svg";
+import npmLogo from "../../../src/tech-logo/npm.svg";
+import postgreSQLLogo from "../../../src/tech-logo/postgreSQL.svg";
+import reactLogo from "../../../src/tech-logo/reactjs.svg";
+import ubuntuLogo from "../../../src/tech-logo/ubuntu.svg";
+import Milestone from "./Milestone";
+
 const Portfolio = () => {
   return (
     <section id="skills">
@@ -19,6 +21,10 @@ const Portfolio = () => {
       </h2>
       <section id="timeline">
         <ul>
+          <Milestone
+            title="freeCodeCamp Front-end certificate"
+            description="300 Hours of coursework. Projects working on bootstrap, sass, lorem10"
+          />
           <li>
             <div>
               <h3>
@@ -48,7 +54,7 @@ const Portfolio = () => {
                 <img class="logo" src={gitLogo} alt="" />
                 <img class="logo" src={nodeLogo} alt="" />
                 <img class="logo" src={npmLogo} alt="" />
-                <img class="logo" src={postgreLogo} alt="" />
+                <img class="logo" src={postgreSQLLogo} alt="" />
               </section>
             </div>
           </li>
