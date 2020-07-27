@@ -7,19 +7,18 @@ function Hobbies() {
         <i class="fa fa-gamepad" aria-hidden="true"></i> Hobby's
       </h2>
       <p>
-        i have different hobbies. Almost too much to mention. I like technical
-        and creative activities. One can think of:
+      Diverse, characterized by technical and creative activities:
       </p>
       <ul class="hobbies">
-        <li> Programming websites.</li>
+        <li> Programming websites</li>
         <li>
           Work with graphics programs such as Gimp, Inkscape, Photoshop and
-          illustrator.
+          illustrator
         </li>
-        <li>Electronics and 3d printers.</li>
-        <li>Digital photography.</li>
-        <li>Bicycles.</li>
-        <li>Nature.</li>
+        <li>Electronics and 3D-printers</li>
+        <li>Digital photography</li>
+        <li>Bicycles</li>
+        <li>Nature</li>
       </ul>
     </section>
   );

@@ -9,7 +9,8 @@ import javascriptLogo from "../../src/tech-logo/js_official.svg";
 import netlifyLogo from "../../src/tech-logo/netlify.svg";
 import nodeLogo from "../../src/tech-logo/node.svg";
 import npmLogo from "../../src/tech-logo/npm.svg";
-import postgreLogo from "../../src/tech-logo/postgre.svg";
+import postgreSQLLogo from "../../src/tech-logo/postgreSQL.svg";
+import Milestone from "./progress/Milestone";
 const Portfolio = () => {
   return (
     <section id="skills">
@@ -48,7 +49,7 @@ const Portfolio = () => {
                 <img class="logo" src={gitLogo} alt="" />
                 <img class="logo" src={nodeLogo} alt="" />
                 <img class="logo" src={npmLogo} alt="" />
-                <img class="logo" src={postgreLogo} alt="" />
+                <img class="logo" src={postgreSQLLogo} alt="" />
               </section>
             </div>
           </li>
@@ -92,6 +93,10 @@ const Portfolio = () => {
               </section>
             </div>
           </li>
+          <Milestone
+            title="freeCodeCamp Front-end certificate"
+            description="300 Hours of coursework. Projects working on bootstrap, sass, lorem10"
+          />
         </ul>
       </section>
     </section>
