@@ -6,7 +6,7 @@ function Intro() {
     <section id="intro">
       <div id="intro-text">
         <h2>
-          <i class="fa fa-info-circle" aria-hidden="true"></i> A strong and
+          <i className="fa fa-info-circle" aria-hidden="true"></i> A strong and
           independend developer with a learning mindset.
         </h2>
       </div>

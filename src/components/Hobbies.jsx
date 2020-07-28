@@ -4,12 +4,10 @@ function Hobbies() {
   return (
     <section id="hobbies">
       <h2>
-        <i class="fa fa-gamepad" aria-hidden="true"></i> Hobby's
+        <i className="fa fa-gamepad" aria-hidden="true"></i> Hobby's
       </h2>
-      <p>
-      Diverse, characterized by technical and creative activities:
-      </p>
-      <ul class="hobbies">
+      <p>Diverse, characterized by technical and creative activities:</p>
+      <ul className="hobbies">
         <li> Programming websites</li>
         <li>
           Work with graphics programs such as Gimp, Inkscape, Photoshop and

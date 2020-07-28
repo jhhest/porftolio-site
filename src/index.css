@@ -279,6 +279,10 @@ section#timeline li {
 .usedTechnologies {
   text-align: center;
 }
+.usedTechnologies svg {
+  width: 4rem;
+  height: 4rem;
+}
 ul.hobbies {
   list-style: none;
   list-style-position: outside;
