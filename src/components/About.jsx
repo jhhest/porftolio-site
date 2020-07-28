@@ -1,8 +1,17 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 function About() {
   return (
-    <section id="about">
+    <motion.section
+      id="about"
+      initial={{
+        opacity: 0,
+      }}
+      animate={{
+        opacity: 1,
+      }}
+    >
       <h2>
         <i className="fa fa-id-card-o" aria-hidden="true"></i> Who is Jan?
       </h2>
@@ -20,7 +29,7 @@ function About() {
         Characteristics of me are: ambitious, inquisitive learning attitude,
         knowledge of people through experience, cooperation and independence.
       </p>
-    </section>
+    </motion.section>
   );
 }
 

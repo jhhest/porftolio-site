@@ -1,8 +1,17 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 function Hobbies() {
   return (
-    <section id="hobbies">
+    <motion.section
+      id="hobbies"
+      initial={{
+        opacity: 0,
+      }}
+      animate={{
+        opacity: 1,
+      }}
+    >
       <h2>
         <i className="fa fa-gamepad" aria-hidden="true"></i> Hobby's
       </h2>
@@ -18,7 +27,7 @@ function Hobbies() {
         <li>Bicycles</li>
         <li>Nature</li>
       </ul>
-    </section>
+    </motion.section>
   );
 }
 

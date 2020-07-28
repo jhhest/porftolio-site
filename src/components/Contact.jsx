@@ -1,8 +1,17 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 function Contact() {
   return (
-    <section id="contact">
+    <motion.section
+      id="contact"
+      initial={{
+        opacity: 0,
+      }}
+      animate={{
+        opacity: 1,
+      }}
+    >
       <h2>
         <i className="fa fa-address-card-o" aria-hidden="true"></i> Contact
       </h2>
@@ -27,7 +36,7 @@ function Contact() {
         <i className="fa fa-github" aria-hidden="true"></i>:
         https://github.com/jhhest
       </p>
-    </section>
+    </motion.section>
   );
 }
 export default Contact;
