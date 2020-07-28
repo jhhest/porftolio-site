@@ -230,13 +230,13 @@ section#timeline li {
 }
 
 /* Right Side */
-#timeline ul li:nth-child(odd) div {
+#timeline ul li:nth-child(even) div {
   left: 40px;
 }
 
 /* Left Side */
 
-#timeline ul li:nth-child(even) div {
+#timeline ul li:nth-child(odd) div {
   left: -434px;
 }
 
@@ -264,13 +264,13 @@ section#timeline li {
 }
 
 /* right side arrows */
-#timeline ul li:nth-child(odd) div:before {
+#timeline ul li:nth-child(even) div:before {
   left: -15px;
   border-width: 8px 16px 8px 0;
   border-color: transparent var(--primary-light) transparent transparent;
 }
 
-#timeline ul li:nth-child(even) div:before {
+#timeline ul li:nth-child(odd) div:before {
   right: -15px;
   border-width: 8px 0px 8px 16px;
   border-color: transparent transparent transparent var(--primary-light);
@@ -304,7 +304,7 @@ ul.hobbies li::before {
     width: 250px;
   }
 
-  #timeline ul li:nth-child(even) div {
+  #timeline ul li:nth-child(odd) div {
     left: -284px;
   }
 }
@@ -317,10 +317,10 @@ ul.hobbies li::before {
   #timeline ul li div {
     width: calc(100vw - 110px);
   }
-  #timeline ul li:nth-child(even) div {
+  #timeline ul li:nth-child(odd) div {
     left: 40px;
   }
-  #timeline ul li:nth-child(even) div:before {
+  #timeline ul li:nth-child(odd) div:before {
     left: -15px;
     border-width: 8px 16px 8px 0;
     border-color: transparent var(--primary-light);
