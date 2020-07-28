@@ -31,7 +31,7 @@ const Portfolio = () => {
       <section id="timeline">
         <ul>
           <Milestone
-            date={new Date(2020, 2, 1)}
+            date={new Date(2020, 4, 1)}
             title="Codaisseur
             bootcamp"
             description="Intensive 3 month coding bootcamp in amsterdam. Around 500 hours of coding. Basically no live, just study."
@@ -55,7 +55,32 @@ const Portfolio = () => {
             ]}
           />
           <Milestone
-            date={new Date(2020, 2, 1)}
+            date={new Date(2020, 5, 1)}
+            title="freeCodeCamp - Responsive Webdesign Certficate"
+            description="300 Hours of coursework. Topics that are covered are html5, Basic CSS, applied visual design, applied accessibility, responsive webdesign principles, Flexbox, Grid and 5 webdesign Projects. "
+            UsedTechnologies={[<HtmlLogo />, <CssLogo />]}
+          />
+          <Milestone
+            date={new Date(2020, 6, 1)}
+            title={"JavaScript Algorithms and Data Structures Certfication"}
+            description="300 Hours of coursework. Topics that are covered are basic JavaScript, EcmaScript6, Regular Expressions, Debugging, Basic Data Structures, Basic Algorithm Scripting, Object Oriented Programming, Functional Programming, Intermediate Algorithm Scripting and 5 projects. "
+            UsedTechnologies={[<JavaScriptLogo />, <HtmlLogo />, <CssLogo />]}
+          />
+          <Milestone
+            date={new Date(2020, 7, 1)}
+            title="My own portfolio website!"
+            description="I made my own website. I made use of React, javascript, HTML/CSS, Framer motion and scalable vector art. I designed my logo In adobe Illustrator."
+            UsedTechnologies={[
+              <ReactLogo />,
+              <FramerMotionLogo />,
+              <GitLogo />,
+              <VscodeLogo />,
+              <HtmlLogo />,
+              <CssLogo />,
+            ]}
+          />
+          <Milestone
+            date={new Date(2020, 8, 1)}
             title="freeCodeCamp Front-end Libraries Certification"
             description="300 Hours of coursework. Consists out of 5 project and several assignements working on Bootstrap, Jquery, Sass, React and Redux. "
             UsedTechnologies={[
@@ -67,31 +92,6 @@ const Portfolio = () => {
               <BootstrapLogo />,
               <CssLogo />,
               <HtmlLogo />,
-            ]}
-          />
-          <Milestone
-            date={new Date(2020, 2, 1)}
-            title={"JavaScript Algorithms and Data Structures Certfication"}
-            description="300 Hours of coursework. Topics that are covered are basic JavaScript, EcmaScript6, Regular Expressions, Debugging, Basic Data Structures, Basic Algorithm Scripting, Object Oriented Programming, Functional Programming, Intermediate Algorithm Scripting and 5 projects. "
-            UsedTechnologies={[<JavaScriptLogo />, <HtmlLogo />, <CssLogo />]}
-          />
-          <Milestone
-            date={new Date(2020, 2, 1)}
-            title="freeCodeCamp - Responsive Webdesign Certficate"
-            description="300 Hours of coursework. Topics that are covered are html5, Basic CSS, applied visual design, applied accessibility, responsive webdesign principles, Flexbox, Grid and 5 webdesign Projects. "
-            UsedTechnologies={[<HtmlLogo />, <CssLogo />]}
-          />
-          <Milestone
-            date={new Date(2020, 2, 1)}
-            title="My own portfolio website!"
-            description="I made my own website. I made use of React, javascript, HTML/CSS, Framer motion and scalable vector art. I designed my logo In adobe Illustrator."
-            UsedTechnologies={[
-              <ReactLogo />,
-              <FramerMotionLogo />,
-              <GitLogo />,
-              <VscodeLogo />,
-              <HtmlLogo />,
-              <CssLogo />,
             ]}
           />
         </ul>
