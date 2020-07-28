@@ -1,21 +1,20 @@
 import React from "react";
 import { motion } from "framer-motion";
-import cssLogo from "../../tech-logo/css.svg";
-import reactLogo from "../../tech-logo/reactjs.svg";
-import dockerLogo from "../../tech-logo/docker.svg";
-import gitLogo from "../../tech-logo/git.svg";
-import htmlLogo from "../../tech-logo/html.svg";
-import javascriptLogo from "../../tech-logo/js_official.svg";
-import netlifyLogo from "../../tech-logo/netlify.svg";
-import nodeLogo from "../../tech-logo/node.svg";
-import npmLogo from "../../tech-logo/npm.svg";
-import postgreSQLLogo from "../../tech-logo/postgreSQL.svg";
-import ubuntuLogo from "../../tech-logo/ubuntu.svg";
-
+import { ReactComponent as HtmlLogo } from "../../tech-logo/html.svg";
+import { ReactComponent as CssLogo } from "../../tech-logo/css.svg";
 function Milestone(props) {
-  const { description, title, UsedTechnologies } = props;
-  console.log(typeof reactLogo);
-  const returnLogos = (logos) => logos.map((technologie) => technologie);
+  const {
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quia ex, pariatur ea delectus asperiores?",
+    title = "DefaultTitle",
+    UsedTechnologies = [<HtmlLogo />, <CssLogo />],
+    date = new Date(1, 1, 1900),
+  } = props;
+
+  var returnLogos = (logos) =>
+    logos.map((technologie, index) => (
+      <i key={`date-${date}-${index}`}>{technologie}</i>
+    ));
+
   return (
     <motion.li
       initial={{
@@ -27,7 +26,8 @@ function Milestone(props) {
     >
       <div>
         <h3>
-          <i className="fa fa-calendar-o" aria-hidden="true"></i> 01-03-2020{" "}
+          <i className="fa fa-calendar-o" aria-hidden="true"></i>{" "}
+          {`${date.getDate()}-${date.getMonth() + 1}-${date.getFullYear()} `}
           <i className="fa fa-chevron-right" aria-hidden="true"></i> {title}
         </h3>
         <p>
