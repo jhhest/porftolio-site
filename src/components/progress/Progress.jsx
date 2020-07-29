@@ -34,7 +34,7 @@ const Portfolio = () => {
             date={new Date(2020, 3, 1)}
             title="Codaisseur
             bootcamp"
-            description="Intensive 3 month coding bootcamp in amsterdam. Around 500 hours of coding. Basically no live, just study."
+            description="Intensive 3 month coding bootcamp in amsterdam. Around 500 hours of coding. Basically no life, just study."
             UsedTechnologies={[
               <ReactLogo />,
               <ReduxLogo />,
@@ -57,7 +57,7 @@ const Portfolio = () => {
           <Milestone
             date={new Date(2020, 4, 1)}
             title="freeCodeCamp - Responsive Webdesign Certficate"
-            description="300 Hours of coursework. Topics that are covered are html5, Basic CSS, applied visual design, applied accessibility, responsive webdesign principles, Flexbox, Grid and 5 webdesign Projects. "
+            description="300 Hours of coursework. Topics that were covered are html5, Basic CSS, applied visual design, applied accessibility, responsive webdesign principles, Flexbox, Grid and 5 webdesign Projects. "
             UsedTechnologies={[<HtmlLogo />, <CssLogo />]}
           />
           <Milestone

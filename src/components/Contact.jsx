@@ -20,7 +20,7 @@ function Contact() {
         <p>
           <i className="fa fa-coffee" aria-hidden="true"></i> Let's keep in
           touch! You are welcome for a cup of coffee or a nice conversation. You
-          can contact us via social media, email or telephone. And I prefer just
+          can contact me via social media, email or telephone. And I prefer just
           calling.
         </p>
         <p>
