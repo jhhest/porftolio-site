@@ -1,18 +1,34 @@
 import React, { Fragment } from "react";
 import logo from "../logo-JanVanHest.svg";
+import { motion } from "framer-motion";
 
 function Header() {
   return (
     <Fragment>
       <header id="home">
-        <section id="logo-left">
+        <motion.section
+          id="logo-left"
+          initial={{
+            opacity: 0,
+          }}
+          animate={{
+            opacity: 1,
+          }}
+        >
           <img id="logo" src={logo} alt="Logo for Jan van Hest" />
           <section id="logo-text">
             <p>Jan van Hest</p>
             <p>Webdeveloper</p>
           </section>
-        </section>
-        <nav>
+        </motion.section>
+        <motion.nav
+          initial={{
+            opacity: 0,
+          }}
+          animate={{
+            opacity: 1,
+          }}
+        >
           <ul>
             <li>
               <a href="#home">Home</a>
@@ -27,7 +43,7 @@ function Header() {
               <a href="#contact">Contact</a>
             </li>
           </ul>
-        </nav>
+        </motion.nav>
       </header>
     </Fragment>
   );
