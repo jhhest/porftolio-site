@@ -460,3 +460,47 @@ ul.hobbies li::before {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 }
+
+/* Snippets */
+.bouncingLoader {
+  text-align: center;
+}
+
+.bouncingLoader > div,
+.bouncingLoader:before,
+.bouncingLoader:after {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background: var(--primary);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -5px;
+  border-radius: 50%;
+  animation: bouncing-loader 0.6s infinite alternate;
+}
+
+.bouncingLoader > div,
+.bouncingLoader:before,
+.bouncingLoader:after {
+  content: "";
+}
+
+.bouncingLoader > div {
+  margin: 0 5px;
+}
+
+.bouncingLoader > div {
+  animation-delay: 0.2s;
+}
+
+.bouncingLoader:after {
+  animation-delay: 0.4s;
+}
+
+@keyframes bouncing-loader {
+  to {
+    opacity: 0.1;
+    transform: translate3d(0, -16px, 0);
+  }
+}

@@ -2,15 +2,15 @@ import React from "react";
 import { motion } from "framer-motion";
 import { ReactComponent as HtmlLogo } from "../../tech-logo/html.svg";
 import { ReactComponent as CssLogo } from "../../tech-logo/css.svg";
-function Milestone(props) {
-  const {
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quia ex, pariatur ea delectus asperiores?",
-    title = "DefaultTitle",
-    UsedTechnologies = [<HtmlLogo />, <CssLogo />],
-    date = new Date(1, 1, 1900),
-  } = props;
 
-  var returnLogos = (logos) =>
+const Milestone = ({
+  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quia ex, pariatur ea delectus asperiores?",
+  title = "DefaultTitle",
+  UsedTechnologies = [<HtmlLogo />, <CssLogo />],
+  date = new Date(1, 1, 1900),
+  loading = false,
+}) => {
+  const returnLogos = (logos) =>
     logos.map((technologie, index) => (
       <i key={`date-${date}-${index}`}>{technologie}</i>
     ));
@@ -47,6 +47,6 @@ function Milestone(props) {
       </div>
     </motion.li>
   );
-}
+};
 
 export default Milestone;

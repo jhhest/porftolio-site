@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { ReactComponent as DeveloperProgrammingSVG } from "../images/programming.svg";
 
-function Contact() {
+const Contact = () => {
   return (
     <section id="contact">
       <motion.section
@@ -42,5 +42,5 @@ function Contact() {
       <DeveloperProgrammingSVG id="contact-image" />
     </section>
   );
-}
+};
 export default Contact;
