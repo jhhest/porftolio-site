@@ -13,6 +13,7 @@ function Header() {
           }}
           animate={{
             opacity: 1,
+            delay: 0.1,
           }}
         >
           <img id="logo" src={logo} alt="Logo for Jan van Hest" />
@@ -26,7 +27,7 @@ function Header() {
             opacity: 0,
           }}
           animate={{
-            opacity: 1,
+            opacity: 0.5,
           }}
         >
           <ul>

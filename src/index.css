@@ -200,6 +200,10 @@ section#intro h1 {
 section#timeline div p {
   margin: 0;
 }
+#loadingPlaceholder {
+  height: auto;
+  width: 100%;
+}
 
 section#timeline ul {
   list-style: none;
